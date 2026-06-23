@@ -321,7 +321,7 @@ $hotel = [
                                 </div>
                                 <!-- Pricing Table end -->
 
-                              
+
                             </div>
                         </section>
                         <!-- Room Pricing Options end -->
@@ -434,21 +434,22 @@ $hotel = [
                     </div>
                 </div>
             </div>
-              <!-- Info Box -->
-                                <div class="mt-5 pt-5 row">
-                                    @foreach($room['trust_badges'] as $badge)
-                                    <div class="col-md-6 col-lg-3 mb-4">
-                                        <div class="bg-light-1 rounded-5 p-4 text-center h-100">
-                                            <div class="text-primary text-9 mb-3"><i class="fa-solid {{ $badge['icon'] }}"></i></div>
-                                            <h4 class="text-6 fw-600 mb-2">{{ $badge['title'] }}</h4>
-                                            <p class="text-body-secondary text-4 mb-0">{{ $badge['text'] }}</p>
-                                        </div>
-                                    </div>
-                                    @endforeach
-                                </div>
+            <!-- Info Box -->
+            <div class="mt-5 pt-5 row">
+                @foreach($room['trust_badges'] as $badge)
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="bg-light-1 rounded-5 p-4 text-center h-100">
+                        <div class="text-primary text-9 mb-3"><i class="fa-solid {{ $badge['icon'] }}"></i></div>
+                        <h4 class="text-6 fw-600 mb-2">{{ $badge['title'] }}</h4>
+                        <p class="text-body-secondary text-4 mb-0">{{ $badge['text'] }}</p>
+                    </div>
+                </div>
+                @endforeach
+            </div>
         </div>
-
         
+
+
 
     </section>
     <!-- Rooms & Suites end -->

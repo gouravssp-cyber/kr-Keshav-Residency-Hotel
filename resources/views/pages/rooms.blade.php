@@ -20,86 +20,75 @@ $hotel = [
 
 $rooms = [
 [
-'name' => 'Twin Room',
-'description' => 'This air-conditioned twin room includes a flat-screen TV with cable channels, a private bathroom, and a balcony with city views. The unit offers 2 beds.',
-'discount' => '55% OFF',
-'price' => '₹6,120',
+'name' => 'Superior Rooms',
+'description' => 'Our Superior Room offers a comfortable and welcoming space, ideal for business or leisure travelers.',
+'discount' => '5% OFF',
+'price' => 'र129',
 'url' => 'room-details.html',
-'image' => 'images/rooms/twin-room.jpg',
+'image' => 'images/rooms/room-1.jpg',
 'badge' => null,
-'image_side' => 'left',
+'image_side' => 'left', // image on left, details on right
 'features' => [
-['icon' => 'fa-bed', 'label' => '2 Single Beds'],
-['icon' => 'fa-users', 'label' => '2 Guests'],
-['icon' => 'fa-expand', 'label' => '28 m² Room'],
+['icon' => 'fa-bed', 'label' => 'Double Bed'],
+['icon' => 'fa-users', 'label' => '1-2 Persons'],
+['icon' => 'fa-expand', 'label' => '215–325 sq.ft.'],
 ['icon' => 'fa-wifi', 'label' => 'Free WiFi'],
-['icon' => 'fa-tv', 'label' => 'Flat-screen TV'],
-['icon' => 'fa-snowflake', 'label' => 'Air Conditioning'],
-['icon' => 'fa-building', 'label' => 'City View'],
-['icon' => 'fa-bath', 'label' => 'Private Bathroom'],
+['icon' => 'fa-tv', 'label' => '32 Inch TV'],
+['icon' => 'fa-water-ladder', 'label' => 'Swimming Pool'],
 ],
 ],
-
 [
-'name' => 'Deluxe Double Room',
-'description' => 'This air-conditioned double room features a flat-screen TV, private bathroom, balcony with city views and comfortable bedding. The unit has 1 bed.',
-'discount' => '55% OFF',
-'price' => '₹6,750',
+'name' => 'Deluxe Rooms',
+'description' => 'The Deluxe Room provides extra space and added comfort for a relaxing stay. Guests can enjoy our amenities.',
+'discount' => '10% OFF',
+'price' => 'र149',
 'url' => 'room-details.html',
-'image' => 'images/rooms/deluxe-double-room.jpg',
+'image' => 'images/rooms/room-2.jpg',
 'badge' => 'Popular',
-'image_side' => 'right',
+'image_side' => 'right', // details on left, image on right
 'features' => [
-['icon' => 'fa-bed', 'label' => '1 Extra Large Double Bed'],
-['icon' => 'fa-users', 'label' => '2 Guests'],
-['icon' => 'fa-expand', 'label' => '23 m² Room'],
+['icon' => 'fa-bed', 'label' => 'Queen Bed'],
+['icon' => 'fa-users', 'label' => '1-2 Persons'],
+['icon' => 'fa-expand', 'label' => '300–450 sq.ft.'],
 ['icon' => 'fa-wifi', 'label' => 'Free WiFi'],
-['icon' => 'fa-tv', 'label' => 'Flat-screen TV'],
-['icon' => 'fa-snowflake', 'label' => 'Air Conditioning'],
-['icon' => 'fa-building', 'label' => 'City View'],
-['icon' => 'fa-door-open', 'label' => 'Balcony'],
+['icon' => 'fa-tv', 'label' => '32 Inch TV'],
+['icon' => 'fa-water-ladder', 'label' => 'Swimming Pool'],
 ],
 ],
-
 [
-'name' => 'Deluxe Triple Room',
-'description' => 'The spacious air-conditioned triple room features a flat-screen TV, electric kettle, dressing room and tiled floor. The unit has 2 beds.',
-'discount' => '55% OFF',
-'price' => '₹7,380',
+'name' => 'Premium Rooms',
+'description' => 'The Premium Room offers extra space, comfort, and premium amenities for a relaxing stay.',
+'discount' => '10% OFF',
+'price' => 'र199',
 'url' => 'room-details.html',
-'image' => 'images/rooms/deluxe-triple-room.jpg',
+'image' => 'images/rooms/room-3.jpg',
 'badge' => null,
 'image_side' => 'left',
 'features' => [
-['icon' => 'fa-bed', 'label' => '2 Double Beds'],
-['icon' => 'fa-users', 'label' => '3 Guests'],
-['icon' => 'fa-expand', 'label' => '33 m² Room'],
+['icon' => 'fa-bed', 'label' => 'King Size Bed'],
+['icon' => 'fa-users', 'label' => '3-4 Persons'],
+['icon' => 'fa-expand', 'label' => '430–645 sq.ft.'],
 ['icon' => 'fa-wifi', 'label' => 'Free WiFi'],
-['icon' => 'fa-tv', 'label' => 'Flat-screen TV'],
-['icon' => 'fa-snowflake', 'label' => 'Air Conditioning'],
-['icon' => 'fa-bolt', 'label' => 'Electric Kettle'],
-['icon' => 'fa-temperature-half','label'=>'Heating'],
+['icon' => 'fa-tv', 'label' => '50 Inch TV'],
+['icon' => 'fa-water-ladder', 'label' => 'Swimming Pool'],
 ],
 ],
-
 [
-'name' => 'Standard Double Room',
-'description' => 'The double room features air conditioning, wardrobe, electric kettle and dressing room. The unit has 1 bed.',
-'discount' => '55% OFF',
-'price' => '₹7,200',
+'name' => 'Executive Rooms',
+'description' => 'Designed for business and upscale travelers, the Executive Room combines elegance and functionality.',
+'discount' => '15% OFF',
+'price' => 'र249',
 'url' => 'room-details.html',
-'image' => 'images/rooms/standard-double-room.jpg',
+'image' => 'images/rooms/room-4.jpg',
 'badge' => null,
 'image_side' => 'right',
 'features' => [
-['icon' => 'fa-bed', 'label' => '1 Double Bed'],
-['icon' => 'fa-users', 'label' => '2 Guests'],
-['icon' => 'fa-expand', 'label' => '23 m² Room'],
+['icon' => 'fa-bed', 'label' => 'Twin Bed'],
+['icon' => 'fa-users', 'label' => '3-4 Persons'],
+['icon' => 'fa-expand', 'label' => '645–1,015 sq.ft.'],
 ['icon' => 'fa-wifi', 'label' => 'Free WiFi'],
-['icon' => 'fa-snowflake', 'label' => 'Air Conditioning'],
-['icon' => 'fa-fan', 'label' => 'Fan'],
-['icon' => 'fa-shirt', 'label' => 'Dressing Room'],
-['icon' => 'fa-kettle', 'label' => 'Electric Kettle'],
+['icon' => 'fa-tv', 'label' => '55 Inch TV'],
+['icon' => 'fa-water-ladder', 'label' => 'Swimming Pool'],
 ],
 ],
 ];
@@ -142,6 +131,104 @@ $amenities = [
 'wow_delay' => '.2s',
 ],
 ];
+
+// ── Hotel Surroundings ───────────────────────────────────────
+$surroundings = [
+'whats_nearby' => [
+'icon' => 'fa-person-walking',
+'title' => "What's Nearby",
+'items' => [
+['name' => 'Park - Sector 47', 'distance' => '550 m'],
+['name' => 'Satvir Park', 'distance' => '1 km'],
+['name' => 'Colony Ground', 'distance' => '1.7 km'],
+['name' => 'Park - Sector 40', 'distance' => '2.1 km'],
+['name' => 'Lig Park', 'distance' => '2.4 km'],
+['name' => 'Sahid Chandra Shekhar Azad Park', 'distance' => '2.4 km'],
+['name' => 'Morning Walk Park', 'distance' => '2.5 km'],
+['name' => 'Sector 40 Park', 'distance' => '2.5 km'],
+['name' => 'Huda Park', 'distance' => '2.5 km'],
+['name' => 'I Block Park', 'distance' => '2.6 km'],
+],
+],
+'restaurants' => [
+'icon' => 'fa-utensils',
+'title' => 'Restaurants & Cafes',
+'items' => [
+['name' => 'Restaurant - Sham Restaurant', 'distance' => '450 m'],
+['name' => 'Restaurant - Zamzam Restaurant', 'distance' => '500 m'],
+['name' => 'Restaurant - Chamel Singh Ka Dhaba', 'distance' => '650 m'],
+],
+],
+'attractions' => [
+'icon' => 'fa-monument',
+'title' => 'Top Attractions',
+'items' => [
+['name' => 'Qutub Minar', 'distance' => '19 km'],
+],
+],
+'nature' => [
+'icon' => 'fa-mountain-sun',
+'title' => 'Natural Beauty',
+'items' => [
+['name' => 'Lake - Water Pond', 'distance' => '9 km'],
+],
+],
+'transport' => [
+'icon' => 'fa-train-subway',
+'title' => 'Public Transport',
+'items' => [
+['name' => 'Train - Huda City Centre', 'distance' => '4 km'],
+['name' => 'Metro - HUDA City Centre', 'distance' => '4.3 km'],
+['name' => 'Metro - IFFCO Chowk', 'distance' => '6 km'],
+['name' => 'Train - Sikanderpur Metro Station', 'distance' => '8 km'],
+],
+],
+'airports' => [
+'icon' => 'fa-plane',
+'title' => 'Closest Airports',
+'items' => [
+['name' => 'Delhi International Airport', 'distance' => '19 km'],
+['name' => 'Hindon Airport', 'distance' => '49 km'],
+],
+],
+];
+
+$surroundingsTags = [
+['icon' => 'fa-utensils', 'label' => 'Food and drinks'],
+['icon' => 'fa-bag-shopping', 'label' => 'Shopping'],
+['icon' => 'fa-champagne-glasses', 'label' => 'Entertainment and nightlife'],
+['icon' => 'fa-person-walking', 'label' => 'Guests loved walking around the neighbourhood!'],
+];
+
+// ── Travellers Are Asking (FAQ) ──────────────────────────────
+$faqs = [
+['question' => 'Do they serve breakfast?', 'answer' => 'Yes, a complimentary breakfast is served daily for all guests staying with us.'],
+['question' => 'Can I park there?', 'answer' => 'Yes, free on-site parking is available for all guests.'],
+['question' => 'Is the restaurant open?', 'answer' => 'Yes, our in-house restaurant is open for breakfast, lunch and dinner.'],
+['question' => 'Is there an airport shuttle service?', 'answer' => 'Yes, we offer a pick up and drop service from the nearest airport on request.'],
+['question' => 'What are the check-in and check-out times?', 'answer' => 'Check-in is from 12:00 PM and check-out is until 11:00 AM.'],
+['question' => 'What restaurants, attractions, and public transport options are nearby?', 'answer' => 'See the "Hotel Surroundings" section above for a full list of nearby restaurants, attractions and transport links.'],
+['question' => 'Are there rooms with a private bathroom?', 'answer' => 'Yes, every room category includes a private en-suite bathroom.'],
+['question' => 'Is there a swimming pool?', 'answer' => 'Yes, guests have access to our outdoor swimming pool throughout their stay.'],
+['question' => 'Is there a spa?', 'answer' => 'Yes, we offer spa and wellness services — please ask our front desk to book a slot.'],
+['question' => 'Are there rooms with a balcony?', 'answer' => 'Select room categories include a private balcony — ask our team when booking.'],
+];
+
+// ── Guest Reviews ─────────────────────────────────────────────
+$reviews = [
+'score' => '8.9',
+'rating_text' => 'Fabulous',
+'count' => '131',
+'categories' => [
+['label' => 'Staff', 'score' => 9.7],
+['label' => 'Facilities', 'score' => 9.2],
+['label' => 'Cleanliness', 'score' => 9.2],
+['label' => 'Comfort', 'score' => 9.1],
+['label' => 'Value for money', 'score' => 9.6],
+['label' => 'Location', 'score' => 8.7],
+['label' => 'Free WiFi', 'score' => 10.0],
+],
+];
 @endphp
 
 @section('content')
@@ -181,7 +268,7 @@ $amenities = [
                         {{-- Image left, details right --}}
                         <div class="col-lg-6">
                             <div class="room-item-img rounded-5">
-                                <a href="/rooms"><img class="img-fluid d-block" src="{{ $room['image'] }}" alt=""></a>
+                                <a href="{{ $room['url'] }}"><img class="img-fluid d-block" src="{{ $room['image'] }}" alt=""></a>
                                 @if($room['badge'])
                                 <div class="position-absolute top-0 start-0 ms-4 mt-4 px-3 py-1 text-3 fw-500 text-bg-primary rounded-pill">{{ $room['badge'] }}</div>
                                 @endif
@@ -206,7 +293,7 @@ $amenities = [
                                 <hr class="opacity-1">
                                 <div class="d-flex align-items-center justify-content-between w-100 bottom-0 start-0">
                                     <div class="text-7 fw-600 d-flex align-items-center gap-1">{{ $room['price'] }} <span class="text-3 fw-500 text-body-tertiary text-uppercase">/ Per Night</span></div>
-                                    <a class="btn btn-new btn-primary rounded-pill" href="/rooms">
+                                    <a class="btn btn-new btn-primary rounded-pill" href="{{ $room['url'] }}">
                                         <span class="btn-text"><span>Details</span></span>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </a>
@@ -234,7 +321,7 @@ $amenities = [
                                 <hr class="opacity-1">
                                 <div class="d-flex align-items-center justify-content-between w-100 bottom-0 start-0">
                                     <div class="text-7 fw-600 d-flex align-items-center gap-1">{{ $room['price'] }} <span class="text-3 fw-500 text-body-tertiary text-uppercase">/ Per Night</span></div>
-                                    <a class="btn btn-new btn-primary rounded-pill" href="/rooms">
+                                    <a class="btn btn-new btn-primary rounded-pill" href="{{ $room['url'] }}">
                                         <span class="btn-text"><span>Details</span></span>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </a>
@@ -243,7 +330,7 @@ $amenities = [
                         </div>
                         <div class="col-lg-6">
                             <div class="room-item-img rounded-5">
-                                <a href="/rooms"><img class="img-fluid d-block" src="{{ $room['image'] }}" alt=""></a>
+                                <a href="{{ $room['url'] }}"><img class="img-fluid d-block" src="{{ $room['image'] }}" alt=""></a>
                                 @if($room['badge'])
                                 <div class="position-absolute top-0 start-0 ms-4 mt-4 px-3 py-1 text-3 fw-500 text-bg-primary rounded-pill">{{ $room['badge'] }}</div>
                                 @endif
@@ -257,6 +344,157 @@ $amenities = [
         </div>
     </section>
     <!-- Rooms & Suites end -->
+
+
+
+    <!-- Hotel Surroundings
+			============================================= -->
+    <section class="section bg-light-1">
+        <div class="container">
+            <!-- Heading -->
+            <div class="d-flex flex-wrap align-items-center justify-content-between mb-4 gap-3 wow fadeInUp">
+                <div>
+                    <p class="mb-2"><span class="text-3 text-uppercase fw-600 rounded-pill border border-dark border-opacity-10 px-3 py-1">Know The Area</span></p>
+                    <h2 class="heading-font-family text-13 fw-600 lh-sm mb-0">Hotel <span class="text-primary">Surroundings</span></h2>
+                </div>
+                <a class="btn btn-new btn-primary rounded-pill" href="#searchHotels">
+                    <span class="btn-text"><span>See Availability</span></span>
+                    <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+            </div>
+            <!-- Heading End -->
+
+            <!-- Area Tags -->
+            <div class="d-flex flex-wrap align-items-center gap-2 gap-md-4 mb-5 wow fadeInUp" data-wow-delay=".1s">
+                <span class="text-3 text-body-secondary fw-500">Guests enjoyed this area for:</span>
+                @foreach($surroundingsTags as $tag)
+                <span class="d-inline-flex align-items-center text-3 fw-500 text-body-secondary">
+                    <span class="text-primary me-2"><i class="fa-solid {{ $tag['icon'] }}"></i></span>{{ $tag['label'] }}
+                </span>
+                @endforeach
+            </div>
+            <!-- Area Tags End -->
+
+            <div class="row g-4">
+                @foreach($surroundings as $group)
+                <div class="col-md-6 col-lg-4">
+                    <div class="bg-white rounded-5 p-4 h-100 wow fadeInUp">
+                        <div class="d-flex align-items-center gap-2 mb-3">
+                            <span class="text-primary text-5"><i class="fa-solid {{ $group['icon'] }}"></i></span>
+                            <h3 class="text-5 fw-600 mb-0">{{ $group['title'] }}</h3>
+                        </div>
+                        <ul class="list-unstyled mb-0">
+                            @foreach($group['items'] as $item)
+                            <li class="d-flex align-items-baseline justify-content-between text-3 text-body-secondary py-2 {{ !$loop->last ? 'border-bottom border-dark border-opacity-10' : '' }}">
+                                <span>{{ $item['name'] }}</span>
+                                <span class="text-nowrap ms-3 fw-500">{{ $item['distance'] }}</span>
+                            </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+
+            <p class="text-2 text-body-tertiary mt-4 mb-0 wow fadeInUp">Shortest estimated walking or driving distances displayed, actual distances may vary.</p>
+        </div>
+    </section>
+    <!-- Hotel Surroundings end -->
+
+    <!-- Travellers Are Asking (FAQ)
+			============================================= -->
+    <section class="section">
+        <div class="container">
+            <!-- Heading -->
+            <div class="d-flex flex-wrap align-items-center justify-content-between mb-5 gap-3 wow fadeInUp">
+                <div>
+                    <p class="mb-2"><span class="text-3 text-uppercase fw-600 rounded-pill border border-dark border-opacity-10 px-3 py-1">Got Questions?</span></p>
+                    <h2 class="heading-font-family text-13 fw-600 lh-sm mb-0">Travellers Are <span class="text-primary">Asking</span></h2>
+                </div>
+                <a class="btn btn-new btn-primary rounded-pill" href="#searchHotels">
+                    <span class="btn-text"><span>See Availability</span></span>
+                    <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+            </div>
+            <!-- Heading End -->
+
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        @foreach($faqs as $index => $faq)
+                        <div class="bg-white rounded-5 mb-3 overflow-hidden wow fadeInUp">
+                            <h4 class="mb-0">
+                                <button class="btn w-100 text-start d-flex align-items-center justify-content-between p-4 text-4 fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#faq-{{ $index }}" aria-expanded="false" aria-controls="faq-{{ $index }}">
+                                    {{ $faq['question'] }}
+                                    <span class="text-primary text-5 flex-shrink-0 ms-3"><i class="fa-solid fa-chevron-down"></i></span>
+                                </button>
+                            </h4>
+                            <div id="faq-{{ $index }}" class="collapse" data-bs-parent="#faqAccordion">
+                                <div class="px-4 pb-4 text-3 text-body-secondary">{{ $faq['answer'] }}</div>
+                            </div>
+                        </div>
+                        @endforeach
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="bg-white rounded-5 p-4 p-lg-5 text-center h-100 d-flex flex-column align-items-center justify-content-center wow fadeInUp" data-wow-delay=".2s">
+                        <div class="text-primary text-13 mb-3"><i class="fa-solid fa-comments"></i></div>
+                        <h3 class="text-6 fw-600 mb-3">Still Looking?</h3>
+                        <p class="text-3 text-body-secondary mb-4">We have an instant answer to most questions.</p>
+                        <a class="btn btn-new btn-primary rounded-pill" href="contact.html">
+                            <span class="btn-text"><span>Ask a Question</span></span>
+                            <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Travellers Are Asking end -->
+
+    <!-- Guest Reviews
+			============================================= -->
+    <section class="section bg-light-1">
+        <div class="container">
+            <div class="bg-white rounded-5 p-4 p-md-5 wow fadeInUp">
+                <!-- Heading -->
+                <div class="d-flex flex-wrap align-items-center justify-content-between mb-4 gap-3">
+                    <h2 class="heading-font-family text-13 fw-600 lh-sm mb-0">Guest <span class="text-primary">Reviews</span></h2>
+                    <a class="btn btn-new btn-primary rounded-pill" href="#searchHotels">
+                        <span class="btn-text"><span>See Availability</span></span>
+                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                </div>
+                <!-- Heading End -->
+
+                <div class="d-flex align-items-center gap-3 mb-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-primary text-white fw-700 text-6 rounded-3" style="width:56px;height:56px;">{{ $reviews['score'] }}</div>
+                    <div>
+                        <div class="text-5 fw-600">{{ $reviews['rating_text'] }}</div>
+                        <a href="#" class="text-3 text-body-secondary text-decoration-none">{{ $reviews['count'] }} reviews · Read all reviews</a>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    @foreach($reviews['categories'] as $category)
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center justify-content-between text-3 fw-500 mb-2">
+                            <span>{{ $category['label'] }}</span>
+                            <span class="fw-600">{{ $category['score'] }}</span>
+                        </div>
+                        <div class="progress rounded-pill" style="height:6px;">
+                            <div class="progress-bar bg-primary rounded-pill" role="progressbar" style="width: {{ $category['score'] * 10 }}%;" aria-valuenow="{{ $category['score'] }}" aria-valuemin="0" aria-valuemax="10"></div>
+                        </div>
+                    </div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Guest Reviews end -->
+
+
 
     <!-- Amenities
 			============================================= -->
